@@ -1,0 +1,26 @@
+{
+    "version": "1.0.0-*",
+    "buildOptions": {
+        "emitEntryPoint": true
+    },
+
+    "dependencies": {
+        "Peak": "1.0.0-*"
+    },
+
+	"frameworks": {
+		"net461": {
+			"frameworkAssemblies": {
+				"System.Configuration": "4.0.0.0",
+				"System.Data": "4.0.0.0",
+				"System.Runtime.Serialization": "4.0.0.0",
+				"System.Xml": "4.0.0.0",
+				"System.Xml.Linq": "4.0.0.0"
+			}
+		}
+	}
+	//,
+  //  "scripts": {
+  //      "precompile": [ "cmd /c echo Removing read-only attributes at app.config && cmd /c attrib -r  %project:Directory%\\app.config" ]
+  //  }
+}
